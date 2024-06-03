@@ -15,9 +15,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        // child: Image.asset('assets/circle.png'),
-        child: Assets.circle.image(),
-      ),
+          // child: Image.asset('assets/circle.png'),
+          // child: Assets.circle.image(),
+          child: Assets.check.svg(
+        width: 72,
+        height: 72,
+      )),
     );
   }
 }
